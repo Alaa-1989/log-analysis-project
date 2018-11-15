@@ -48,51 +48,60 @@
    If you need to bring the virtual machine back online (with `vagrant up`), do so now. Then log into it with `vagrant ssh`.
 
 ### Newsdata database file
-   You will need to unzip file newsdata after downloading it. The file inside is called newsdata.sql , Put this file into the vagrant directory, which is shared with your virtual machine.
+   You will need to unzip file newsdata after downloading it. The file inside is called **newsdata.sql** , Put this file into the vagrant directory, which is shared with your virtual machine.
 
-   To build the reporting tool, you'll need to load the site's data into your local database.
+- To build the reporting tool, you'll need to load the site's data into your local database.
 
-   To load the data, `cd` into the `vagrant` directory and use the command.
-
-
-`psql -d news -f newsdata.sql`
+- To load the data, `cd` into the `vagrant` directory and use the command.
 
 
-#### Here's what this command does:
+     `psql -d news -f newsdata.sql`
+
+
+##### Here's what this command does:
 - `psql` — the PostgreSQL command line program
 - `-d`  news — connect to the database named news which has been set up for you
 - `-f` newsdata.sql — run the SQL statements in the file newsdata.sql
 
-   Running this command will connect to your installed database server and execute the SQL commands in the downloaded file, creating tables and populating them with data.
+Running this command will connect to your installed database server and execute the SQL commands in the downloaded file, creating tables and populating them with data.
 
 ### psycopg2
    In your python code you need to import psycopg2 library and you need to install the package from the terminal/git bash if you have not yet:
-
-###### Run this code in your terminal
-
-`pip3 install psycopg2`
-
 
 
 ![rsz_screenshot_psycopg2](https://user-images.githubusercontent.com/42184553/48574425-327bce80-e920-11e8-9717-bd736af2290f.png)
 > **This from my git bash after run the command to install psycopg2**
 
-### pycodestyle-2.4.0
-  _*Python	code:_  The code conforms to the PEP8 style recommendations.
-   You can install the pycodestyle tool to test this, with `pip install pycodestyle` or `pip3 install pycodestyle` (Python 3).
-   Use	a	style	standard	to	test	your	python	code	quality	like	**“pycodestyle”**.	Your	code	should	pass	the	style	standard	with	0	errors.
-
 ###### Run this code in your terminal
 
-`pip3 install pycodestyle `
+     `pip3 install psycopg2`
 
 
+### pycodestyle-2.4.0
+  _Python	code:_  The code in this project conforms to the PEP8 style recommendations.
+
+   Use	a	style	standard	to	test	your	python	code	quality	like	**“pycodestyle”**.
+   Your	code	should	pass	the	style	standard	with	0	errors.
+
+   You can install the _pycodestyle_ tool to test this.
 
 ![rsz_screenshot_pycodestyle](https://user-images.githubusercontent.com/42184553/48574401-2132c200-e920-11e8-8455-5ac79bd2090d.png)
 > **This picture from  my git bash after run the command for PEP8 style to installed it**
 
+###### Run this code in your terminal
+
+
+If your edition (python3)
+
+     `pip3 install pycodestyle `  
+
+or
+
+     `pip install pycodestyle`
+
+
 ## Notes
-you will find a comments in the code file  after this char ` # ` described each command uses.
+you will find a comments in the code file described each command uses.
 
 ## Author
 
