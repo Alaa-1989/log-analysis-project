@@ -54,9 +54,11 @@
 
    To load the data, `cd` into the `vagrant` directory and use the command.
 
+
 `psql -d news -f newsdata.sql`
 
-**Here's what this command does:**
+
+#### Here's what this command does:
 - `psql` — the PostgreSQL command line program
 - `-d`  news — connect to the database named news which has been set up for you
 - `-f` newsdata.sql — run the SQL statements in the file newsdata.sql
@@ -72,10 +74,10 @@
 
 
 
-**This from my git bash after run the command to install psycopg2**
+> **This from my git bash after run the command to install psycopg2**
 
 ### pycodestyle-2.4.0
-   **Python	code:**  The code conforms to the PEP8 style recommendations.
+  _*Python	code:_  The code conforms to the PEP8 style recommendations.
    You can install the pycodestyle tool to test this, with `pip install pycodestyle` or `pip3 install pycodestyle` (Python 3).
    Use	a	style	standard	to	test	your	python	code	quality	like	**“pycodestyle”**.	Your	code	should	pass	the	style	standard	with	0	errors.
 
@@ -84,7 +86,7 @@
 `pip3 install pycodestyle `
 
 
-**This picture from  my git bash after run the command for PEP8 style to installed it**
+> **This picture from  my git bash after run the command for PEP8 style to installed it**
 
 ## Notes
 you will find a comments in the code file  after this char ` # ` described each command uses.
@@ -95,4 +97,4 @@ you will find a comments in the code file  after this char ` # ` described each 
 
 ## License
 
-Licensed under the MIT License.
+Licensed under the [MIT License](LICENSE)
