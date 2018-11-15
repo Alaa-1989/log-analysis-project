@@ -43,11 +43,11 @@
 
 
 ## How to Run
-#### The virtual machine
+### The virtual machine
    To start on this project, you'll need database software (provided by a Linux virtual machine) and the data to analyze, so install the virtual machine.
    If you need to bring the virtual machine back online (with `vagrant up`), do so now. Then log into it with `vagrant ssh`.
 
-#### Newsdata database file
+### Newsdata database file
    You will need to unzip file newsdata after downloading it. The file inside is called newsdata.sql , Put this file into the vagrant directory, which is shared with your virtual machine.
 
    To build the reporting tool, you'll need to load the site's data into your local database.
@@ -63,7 +63,7 @@
 
    Running this command will connect to your installed database server and execute the SQL commands in the downloaded file, creating tables and populating them with data.
 
-#### psycopg2
+### psycopg2
    In your python code you need to import psycopg2 library and you need to install the package from the terminal/git bash if you have not yet:
 
 **Run this code in your terminal**
@@ -74,7 +74,7 @@
 
 **This from my git bash after run the command to install psycopg2**
 
-#### pycodestyle-2.4.0
+### pycodestyle-2.4.0
    **Python	code:**  The code conforms to the PEP8 style recommendations.
    You can install the pycodestyle tool to test this, with `pip install pycodestyle` or `pip3 install pycodestyle` (Python 3).
    Use	a	style	standard	to	test	your	python	code	quality	like	**“pycodestyle”**.	Your	code	should	pass	the	style	standard	with	0	errors.
