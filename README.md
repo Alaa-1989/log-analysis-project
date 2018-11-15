@@ -74,7 +74,7 @@
 
 
 
-![screenshot psycopg2](https://user-images.githubusercontent.com/42184553/48574052-36f3b780-e91f-11e8-896c-b9552a0991f8.PNG)
+![rsz_screenshot_psycopg2](https://user-images.githubusercontent.com/42184553/48574425-327bce80-e920-11e8-9717-bd736af2290f.png)
 > **This from my git bash after run the command to install psycopg2**
 
 ### pycodestyle-2.4.0
@@ -88,7 +88,7 @@
 
 
 
-![screenshot pycodestyle](https://user-images.githubusercontent.com/42184553/48574089-538fef80-e91f-11e8-85fd-c4964ed63d99.PNG)
+![rsz_screenshot_pycodestyle](https://user-images.githubusercontent.com/42184553/48574401-2132c200-e920-11e8-8455-5ac79bd2090d.png)
 > **This picture from  my git bash after run the command for PEP8 style to installed it**
 
 ## Notes
