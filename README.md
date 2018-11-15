@@ -68,12 +68,13 @@
 ### psycopg2
    In your python code you need to import psycopg2 library and you need to install the package from the terminal/git bash if you have not yet:
 
-**Run this code in your terminal**
+###### Run this code in your terminal
 
 `pip3 install psycopg2`
 
 
 
+![screenshot psycopg2](https://user-images.githubusercontent.com/42184553/48574052-36f3b780-e91f-11e8-896c-b9552a0991f8.PNG)
 > **This from my git bash after run the command to install psycopg2**
 
 ### pycodestyle-2.4.0
@@ -81,11 +82,13 @@
    You can install the pycodestyle tool to test this, with `pip install pycodestyle` or `pip3 install pycodestyle` (Python 3).
    Use	a	style	standard	to	test	your	python	code	quality	like	**“pycodestyle”**.	Your	code	should	pass	the	style	standard	with	0	errors.
 
-**Run this code in your terminal**
+###### Run this code in your terminal
 
 `pip3 install pycodestyle `
 
 
+
+![screenshot pycodestyle](https://user-images.githubusercontent.com/42184553/48574089-538fef80-e91f-11e8-85fd-c4964ed63d99.PNG)
 > **This picture from  my git bash after run the command for PEP8 style to installed it**
 
 ## Notes
