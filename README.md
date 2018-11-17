@@ -99,6 +99,25 @@ or
 
 `pip install pycodestyle`
 
+Checked your code by run this command to see if it's a conforms to the PEP8 style recommendations.
+
+`pycodestyle newsdatadb.py`
+
+
+### Code Results
+
+For run the code script and see the results, Please write this command in your **git bash/Terminal**.
+
+`python newsdatadb.py`
+
+or
+
+`python3 newsdatadb.py`
+
+
+![rsz_screenshot_code_script](https://user-images.githubusercontent.com/42184553/48663055-adb5bf80-ea9b-11e8-9ffa-ff6a4202345e.png)
+> **This is what I got after run the script command in my git bash**
+
 
 ## Notes
 you will find a comments in the code file described each command uses.
