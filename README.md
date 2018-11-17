@@ -55,7 +55,7 @@
 - To load the data, `cd` into the `vagrant` directory and use the command.
 
 
-     `psql -d news -f newsdata.sql`
+`psql -d news -f newsdata.sql`
 
 
 ##### Here's what this command does:
@@ -74,7 +74,7 @@ Running this command will connect to your installed database server and execute 
 
 ###### Run this code in your terminal
 
-     `pip3 install psycopg2`
+`pip3 install psycopg2`
 
 
 ### pycodestyle-2.4.0
@@ -93,11 +93,11 @@ Running this command will connect to your installed database server and execute 
 
 If your edition (python3)
 
-     `pip3 install pycodestyle `  
+`pip3 install pycodestyle`  
 
 or
 
-     `pip install pycodestyle`
+`pip install pycodestyle`
 
 
 ## Notes
